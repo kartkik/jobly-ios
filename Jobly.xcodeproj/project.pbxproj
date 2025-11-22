@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		481093F12ED1FE01002F7588 /* JobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481093F02ED1FE01002F7588 /* JobModel.swift */; };
+		481093F42ED1FE76002F7588 /* JobService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481093F32ED1FE76002F7588 /* JobService.swift */; };
+		481093F62ED2034E002F7588 /* JobListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481093F52ED2034E002F7588 /* JobListView.swift */; };
+		481093F82ED209B3002F7588 /* JobListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481093F72ED209B3002F7588 /* JobListViewModel.swift */; };
+		481093FE2ED21493002F7588 /* FilterChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481093FD2ED21493002F7588 /* FilterChip.swift */; };
+		481094002ED214BF002F7588 /* JobCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481093FF2ED214BF002F7588 /* JobCard.swift */; };
+		481094022ED214D9002F7588 /* JobDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481094012ED214D9002F7588 /* JobDetailSheet.swift */; };
+		481094042ED21512002F7588 /* DetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481094032ED21512002F7588 /* DetailRow.swift */; };
+		4857F4892ECE10CE009EA9F3 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4857F4882ECE10CE009EA9F3 /* SplashView.swift */; };
+		4857F48B2ECE126B009EA9F3 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4857F48A2ECE126B009EA9F3 /* AppTheme.swift */; };
+		4857F48E2ECE1324009EA9F3 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4857F48D2ECE1324009EA9F3 /* Lottie */; };
+		48B06AE22EAFC94C0009748F /* JoblyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B06AE12EAFC94C0009748F /* JoblyApp.swift */; };
+		48B06AE42EAFC94C0009748F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B06AE32EAFC94C0009748F /* Persistence.swift */; };
+		48B06AE72EAFC94C0009748F /* Jobly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48B06AE52EAFC94C0009748F /* Jobly.xcdatamodeld */; };
+		48B06AEB2EAFC9530009748F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B06AEA2EAFC9530009748F /* Assets.xcassets */; };
+		48B06AEF2EAFC9530009748F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B06AEE2EAFC9530009748F /* Preview Assets.xcassets */; };
+		48B06AF92EAFC9530009748F /* JoblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B06AF82EAFC9530009748F /* JoblyTests.swift */; };
+		48B06B032EAFC9530009748F /* JoblyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B06B022EAFC9530009748F /* JoblyUITests.swift */; };
+		48B06B052EAFC9530009748F /* JoblyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B06B042EAFC9530009748F /* JoblyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48B06AF52EAFC9530009748F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48B06AD62EAFC94C0009748F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48B06ADD2EAFC94C0009748F;
+			remoteInfo = Jobly;
+		};
+		48B06AFF2EAFC9530009748F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48B06AD62EAFC94C0009748F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48B06ADD2EAFC94C0009748F;
+			remoteInfo = Jobly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		481093F02ED1FE01002F7588 /* JobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobModel.swift; sourceTree = "<group>"; };
+		481093F32ED1FE76002F7588 /* JobService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobService.swift; sourceTree = "<group>"; };
+		481093F52ED2034E002F7588 /* JobListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListView.swift; sourceTree = "<group>"; };
+		481093F72ED209B3002F7588 /* JobListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListViewModel.swift; sourceTree = "<group>"; };
+		481093FD2ED21493002F7588 /* FilterChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChip.swift; sourceTree = "<group>"; };
+		481093FF2ED214BF002F7588 /* JobCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCard.swift; sourceTree = "<group>"; };
+		481094012ED214D9002F7588 /* JobDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailSheet.swift; sourceTree = "<group>"; };
+		481094032ED21512002F7588 /* DetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRow.swift; sourceTree = "<group>"; };
+		4857F4882ECE10CE009EA9F3 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		4857F48A2ECE126B009EA9F3 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		48B06ADE2EAFC94C0009748F /* Jobly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jobly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B06AE12EAFC94C0009748F /* JoblyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoblyApp.swift; sourceTree = "<group>"; };
+		48B06AE32EAFC94C0009748F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		48B06AE62EAFC94C0009748F /* Jobly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jobly.xcdatamodel; sourceTree = "<group>"; };
+		48B06AEA2EAFC9530009748F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48B06AEC2EAFC9530009748F /* Jobly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jobly.entitlements; sourceTree = "<group>"; };
+		48B06AEE2EAFC9530009748F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48B06AF42EAFC9530009748F /* JoblyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoblyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B06AF82EAFC9530009748F /* JoblyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoblyTests.swift; sourceTree = "<group>"; };
+		48B06AFE2EAFC9530009748F /* JoblyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoblyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B06B022EAFC9530009748F /* JoblyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoblyUITests.swift; sourceTree = "<group>"; };
+		48B06B042EAFC9530009748F /* JoblyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoblyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48B06ADB2EAFC94C0009748F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4857F48E2ECE1324009EA9F3 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B06AF12EAFC9530009748F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B06AFB2EAFC9530009748F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		481093EB2ED1FCBA002F7588 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48B06AEA2EAFC9530009748F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		481093EC2ED1FD21002F7588 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				481093F02ED1FE01002F7588 /* JobModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		481093ED2ED1FD2C002F7588 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				481093F72ED209B3002F7588 /* JobListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		481093EE2ED1FD3D002F7588 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4857F48A2ECE126B009EA9F3 /* AppTheme.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		481093EF2ED1FD91002F7588 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4857F4882ECE10CE009EA9F3 /* SplashView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		481093F22ED1FE3F002F7588 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				481093F32ED1FE76002F7588 /* JobService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		481093F92ED20EFE002F7588 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				481093ED2ED1FD2C002F7588 /* ViewModels */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		481093FA2ED20F05002F7588 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				481093FC2ED20F3C002F7588 /* JobList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		481093FC2ED20F3C002F7588 /* JobList */ = {
+			isa = PBXGroup;
+			children = (
+				481093F52ED2034E002F7588 /* JobListView.swift */,
+				481093FD2ED21493002F7588 /* FilterChip.swift */,
+				481093FF2ED214BF002F7588 /* JobCard.swift */,
+				481094012ED214D9002F7588 /* JobDetailSheet.swift */,
+				481094032ED21512002F7588 /* DetailRow.swift */,
+			);
+			path = JobList;
+			sourceTree = "<group>";
+		};
+		48B06AD52EAFC94C0009748F = {
+			isa = PBXGroup;
+			children = (
+				48B06AE02EAFC94C0009748F /* Jobly */,
+				48B06AF72EAFC9530009748F /* JoblyTests */,
+				48B06B012EAFC9530009748F /* JoblyUITests */,
+				48B06ADF2EAFC94C0009748F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48B06ADF2EAFC94C0009748F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48B06ADE2EAFC94C0009748F /* Jobly.app */,
+				48B06AF42EAFC9530009748F /* JoblyTests.xctest */,
+				48B06AFE2EAFC9530009748F /* JoblyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48B06AE02EAFC94C0009748F /* Jobly */ = {
+			isa = PBXGroup;
+			children = (
+				481093FA2ED20F05002F7588 /* Features */,
+				481093F92ED20EFE002F7588 /* Core */,
+				481093F22ED1FE3F002F7588 /* Service */,
+				481093EC2ED1FD21002F7588 /* Models */,
+				481093EF2ED1FD91002F7588 /* Views */,
+				481093EE2ED1FD3D002F7588 /* Utils */,
+				481093EB2ED1FCBA002F7588 /* Resources */,
+				48B06AE12EAFC94C0009748F /* JoblyApp.swift */,
+				48B06AE32EAFC94C0009748F /* Persistence.swift */,
+				48B06AEC2EAFC9530009748F /* Jobly.entitlements */,
+				48B06AE52EAFC94C0009748F /* Jobly.xcdatamodeld */,
+				48B06AED2EAFC9530009748F /* Preview Content */,
+			);
+			path = Jobly;
+			sourceTree = "<group>";
+		};
+		48B06AED2EAFC9530009748F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				48B06AEE2EAFC9530009748F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48B06AF72EAFC9530009748F /* JoblyTests */ = {
+			isa = PBXGroup;
+			children = (
+				48B06AF82EAFC9530009748F /* JoblyTests.swift */,
+			);
+			path = JoblyTests;
+			sourceTree = "<group>";
+		};
+		48B06B012EAFC9530009748F /* JoblyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48B06B022EAFC9530009748F /* JoblyUITests.swift */,
+				48B06B042EAFC9530009748F /* JoblyUITestsLaunchTests.swift */,
+			);
+			path = JoblyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48B06ADD2EAFC94C0009748F /* Jobly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B06B082EAFC9540009748F /* Build configuration list for PBXNativeTarget "Jobly" */;
+			buildPhases = (
+				48B06ADA2EAFC94C0009748F /* Sources */,
+				48B06ADB2EAFC94C0009748F /* Frameworks */,
+				48B06ADC2EAFC94C0009748F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jobly;
+			packageProductDependencies = (
+				4857F48D2ECE1324009EA9F3 /* Lottie */,
+			);
+			productName = Jobly;
+			productReference = 48B06ADE2EAFC94C0009748F /* Jobly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48B06AF32EAFC9530009748F /* JoblyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B06B0B2EAFC9540009748F /* Build configuration list for PBXNativeTarget "JoblyTests" */;
+			buildPhases = (
+				48B06AF02EAFC9530009748F /* Sources */,
+				48B06AF12EAFC9530009748F /* Frameworks */,
+				48B06AF22EAFC9530009748F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48B06AF62EAFC9530009748F /* PBXTargetDependency */,
+			);
+			name = JoblyTests;
+			productName = JoblyTests;
+			productReference = 48B06AF42EAFC9530009748F /* JoblyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48B06AFD2EAFC9530009748F /* JoblyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B06B0E2EAFC9540009748F /* Build configuration list for PBXNativeTarget "JoblyUITests" */;
+			buildPhases = (
+				48B06AFA2EAFC9530009748F /* Sources */,
+				48B06AFB2EAFC9530009748F /* Frameworks */,
+				48B06AFC2EAFC9530009748F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48B06B002EAFC9530009748F /* PBXTargetDependency */,
+			);
+			name = JoblyUITests;
+			productName = JoblyUITests;
+			productReference = 48B06AFE2EAFC9530009748F /* JoblyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48B06AD62EAFC94C0009748F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					48B06ADD2EAFC94C0009748F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					48B06AF32EAFC9530009748F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 48B06ADD2EAFC94C0009748F;
+					};
+					48B06AFD2EAFC9530009748F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 48B06ADD2EAFC94C0009748F;
+					};
+				};
+			};
+			buildConfigurationList = 48B06AD92EAFC94C0009748F /* Build configuration list for PBXProject "Jobly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48B06AD52EAFC94C0009748F;
+			packageReferences = (
+				4857F48C2ECE1324009EA9F3 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 48B06ADF2EAFC94C0009748F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48B06ADD2EAFC94C0009748F /* Jobly */,
+				48B06AF32EAFC9530009748F /* JoblyTests */,
+				48B06AFD2EAFC9530009748F /* JoblyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48B06ADC2EAFC94C0009748F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B06AEF2EAFC9530009748F /* Preview Assets.xcassets in Resources */,
+				48B06AEB2EAFC9530009748F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B06AF22EAFC9530009748F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B06AFC2EAFC9530009748F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48B06ADA2EAFC94C0009748F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481093F82ED209B3002F7588 /* JobListViewModel.swift in Sources */,
+				48B06AE22EAFC94C0009748F /* JoblyApp.swift in Sources */,
+				48B06AE42EAFC94C0009748F /* Persistence.swift in Sources */,
+				481094022ED214D9002F7588 /* JobDetailSheet.swift in Sources */,
+				481093FE2ED21493002F7588 /* FilterChip.swift in Sources */,
+				4857F4892ECE10CE009EA9F3 /* SplashView.swift in Sources */,
+				4857F48B2ECE126B009EA9F3 /* AppTheme.swift in Sources */,
+				48B06AE72EAFC94C0009748F /* Jobly.xcdatamodeld in Sources */,
+				481093F12ED1FE01002F7588 /* JobModel.swift in Sources */,
+				481094042ED21512002F7588 /* DetailRow.swift in Sources */,
+				481093F62ED2034E002F7588 /* JobListView.swift in Sources */,
+				481093F42ED1FE76002F7588 /* JobService.swift in Sources */,
+				481094002ED214BF002F7588 /* JobCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B06AF02EAFC9530009748F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B06AF92EAFC9530009748F /* JoblyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B06AFA2EAFC9530009748F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B06B032EAFC9530009748F /* JoblyUITests.swift in Sources */,
+				48B06B052EAFC9530009748F /* JoblyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48B06AF62EAFC9530009748F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48B06ADD2EAFC94C0009748F /* Jobly */;
+			targetProxy = 48B06AF52EAFC9530009748F /* PBXContainerItemProxy */;
+		};
+		48B06B002EAFC9530009748F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48B06ADD2EAFC94C0009748F /* Jobly */;
+			targetProxy = 48B06AFF2EAFC9530009748F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48B06B062EAFC9540009748F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48B06B072EAFC9540009748F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		48B06B092EAFC9540009748F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Jobly/Jobly.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jobly/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobly.app.Jobly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48B06B0A2EAFC9540009748F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Jobly/Jobly.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jobly/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobly.app.Jobly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48B06B0C2EAFC9540009748F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobly.app.JoblyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jobly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jobly";
+			};
+			name = Debug;
+		};
+		48B06B0D2EAFC9540009748F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobly.app.JoblyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jobly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jobly";
+			};
+			name = Release;
+		};
+		48B06B0F2EAFC9540009748F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobly.app.JoblyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jobly;
+			};
+			name = Debug;
+		};
+		48B06B102EAFC9540009748F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobly.app.JoblyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jobly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48B06AD92EAFC94C0009748F /* Build configuration list for PBXProject "Jobly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B06B062EAFC9540009748F /* Debug */,
+				48B06B072EAFC9540009748F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B06B082EAFC9540009748F /* Build configuration list for PBXNativeTarget "Jobly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B06B092EAFC9540009748F /* Debug */,
+				48B06B0A2EAFC9540009748F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B06B0B2EAFC9540009748F /* Build configuration list for PBXNativeTarget "JoblyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B06B0C2EAFC9540009748F /* Debug */,
+				48B06B0D2EAFC9540009748F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B06B0E2EAFC9540009748F /* Build configuration list for PBXNativeTarget "JoblyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B06B0F2EAFC9540009748F /* Debug */,
+				48B06B102EAFC9540009748F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4857F48C2ECE1324009EA9F3 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4857F48D2ECE1324009EA9F3 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4857F48C2ECE1324009EA9F3 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		48B06AE52EAFC94C0009748F /* Jobly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48B06AE62EAFC94C0009748F /* Jobly.xcdatamodel */,
+			);
+			currentVersion = 48B06AE62EAFC94C0009748F /* Jobly.xcdatamodel */;
+			path = Jobly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48B06AD62EAFC94C0009748F /* Project object */;
+}
